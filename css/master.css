@@ -1,0 +1,61 @@
+html{
+  background-image: url(../img/bg-pattern.jpg);
+}
+
+h1,h2,h3,h4,p {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #666;
+}
+
+header {
+  background-color: white;
+  max-height: 100px;
+  width: 100vw;
+  display: block;
+  padding: 20px;
+  margin: -10px -10px 20px -10px;
+  box-shadow: 5px 5px 5px #7d7d7d;
+}
+
+header img {
+  height: 100px;
+  weight: 150px;
+  display: inline-block;
+}
+
+.head-text {
+  display: inline-block;
+}
+
+.post {
+  background-color: white;
+  border-radius: 5px;
+  padding:20px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 3px 5px 10px #7d7d7d;
+  margin-bottom: 30px;
+  max-width: 40%;
+}
+
+.post img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.post h4, p {
+  display: block;
+  width:100%;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+.mini-text{
+  font-size: .6em;
+  color: gray;
+  margin-bottom: 5px;
+}
